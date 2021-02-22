@@ -107,7 +107,10 @@
       /* shape-outside: circle();
       clip-path: circle(); */
      box-shadow: 0 0 30px rgba(128, 128, 128, 0.651);
-     background-color: rgb(78, 15, 78);
+     border: 8px solid  rgb(78, 15, 78);
+     background: url(https://via.placeholder.com/300);
+     border-bottom: 8px solid  rgb(226, 150, 7);
+     
   }
 .cpriscas .description{
     padding-top: 50px;
