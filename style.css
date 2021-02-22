@@ -68,10 +68,20 @@
     font-family: Montserrat;
     color:rgb(255, 255, 255);
     margin-right: 10px;
-    background: rgb(226, 149, 7);
+    background: url(https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFrZXJ5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-position: center;
     counter-increment: gallery-cell;
     margin-bottom: 10px;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.315);
+  }
+  .gallery-cell:nth-child(1){
+      background: url(https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJha2VyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  }
+  .gallery-cell:nth-child(2){
+      background: url(https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8YmFrZXJ5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+  }
+  .gallery-cell:nth-child(3){
+      background: url(https://c0.wallpaperflare.com/preview/167/509/265/bread-korea-bakery-baguette-bread.jpg);
   }
   .gallery-cell h1{
       padding-top: 155px;
