@@ -82,6 +82,7 @@
   }
   .gallery-cell:nth-child(3){
       background: url(https://c0.wallpaperflare.com/preview/167/509/265/bread-korea-bakery-baguette-bread.jpg);
+      background-size: cover;
   }
   .gallery-cell h1{
       padding-top: 155px;
