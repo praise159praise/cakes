@@ -3,7 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
 .nHead{
     background-color: green;
     position: relative;
