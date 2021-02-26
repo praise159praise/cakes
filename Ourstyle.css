@@ -1,0 +1,72 @@
+
+
+.ourService{
+    flex-direction: column;
+    height: 60%;
+    /* background: none; */
+    margin: 0;
+    align-items: flex-start;
+   
+}
+.card{
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.459);
+
+}
+.card .header{
+    top: 30%;
+}
+.card .description{
+    font-size: 15px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    position: relative;
+    
+   
+    margin-bottom: 30px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+@media only screen and (max-width: 769px){
+    .card{
+        font-size: 25px;
+     
+    }
+    .card .header{
+        top: 25%;
+    }
+}
+@media only screen and (max-width:526px){
+
+    .OtherNavItems{
+        display: none;
+    }
+    .menu{
+        /* position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-70%); */
+    }
+    .menu div{
+        margin-bottom: 5px;
+        width: 30px;
+        height: 3px;
+        border-radius: 15%;
+        background-color: #fff;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0;
+        height: 100vh;
+    }
+}
