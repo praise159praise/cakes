@@ -1,6 +1,7 @@
 
 
 .ourService{
+   
     flex-direction: column;
     height: 60%;
     /* background: none; */
@@ -68,5 +69,7 @@
         flex-direction: column;
         margin: 0;
         height: 100vh;
+        width: 100%;
+       
     }
 }
