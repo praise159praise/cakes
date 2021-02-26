@@ -422,6 +422,7 @@ a{
         align-items: center;
         justify-content: space-around;
         transition: .5s;
+        opacity: 0;
     }
     .overlay div{
     
@@ -442,7 +443,7 @@ a{
         background-color:rgb(15, 1, 15) ;
     }
     #bars:checked  ~ .overlay{
-      
+        opacity: 1;
         transform: translate(-50%,100vh)
     } 
     .navItem{
