@@ -1,0 +1,133 @@
+@media only screen and (max-width:526px){
+
+    .OtherNavItems{
+        
+        display: none;
+    }
+    .menu{
+        /* background: b; */
+        align-content:flex-end;
+        /* position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-70%); */
+    }
+    .menu div{
+        margin-bottom: 5px;
+        width: 30px;
+        height: 3px;
+        border-radius: 15%;
+        background-color: #fff;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0;
+        height: 100vh;
+    }
+    .nHead{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+        /* height: 40000px; */
+        /* background-color: red; */
+        /* width: 100px; */
+        align-items: center;
+        padding: 25px;
+        flex-direction: row;
+        
+        justify-content: space-evenly;
+    }
+    .priscas{
+        padding: 0;
+        width: 9000%;
+    text-align: start;
+    font-size: 30px;
+    }
+    .ourService{
+        flex-direction: column;
+        height: 150vh;
+        align-items: center;
+    }
+    .ourService .card{
+        height: 60%;
+        width: 95%;
+    }
+    .cpriscas .image{
+        min-width: 200px;
+        min-height: 200px;
+        background: url(https://via.placeholder.com/200);
+        margin:0;
+    }
+    .cpriscas{
+        flex-direction: column;
+    }
+    .cpriscas .description{
+        padding: 50px;
+        padding-top: 10px;
+         
+        text-align: center;
+    }
+    .gallery-cell{
+        width: 450px;
+    }
+    .gallery-cell p{
+        position: absolute;
+        top:55%;
+        width: 85%;
+        height: 40%;
+        
+        overflow:hidden;
+    }   
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color:  rgb(48, 5, 48);
+        z-index: 998;
+        top:-100vh;
+        left: 50%;
+        transform: translate(-50%,-100vh);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: .5s;
+        opacity: 0;
+    }
+    .overlay div{
+    
+        
+        width: 100%;
+        
+        padding: 45px 0;
+        text-align: center;
+        align-items: center;
+       justify-content: space-around;
+       transition: .5s;
+        
+    }
+    .overlay div:nth-child(1){
+        margin-top: 50px;
+    }
+    .overlay div:hover{
+        background-color:rgba(15, 1, 15, 0.329) ;
+    }
+    #bars:checked  ~ .overlay{
+        opacity: 1;
+        transform: translate(-50%,100vh)
+    } 
+    .navItem{
+        z-index: 99999999999;
+    }
+    .card1{
+        margin-bottom: 0;
+    }
+    .card1, .card2{
+        flex-direction: column;
+    }
+    .gallaria .reviews{
+        padding: 30px 30px;
+        text-align: center;
+    }
+}

@@ -3,6 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height:40px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border:none;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:rgba(197, 130, 4, 0.5);
+    border-radius: 10px;
+    height:40px;
+    transition: .3s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(197, 130, 4);
+  }
 a{
     color: white;
     text-decoration: none;
@@ -66,12 +91,13 @@ a{
 }
 .gallery {
     background: rgb(48, 5, 48);
+    
   }
   
   .gallery-cell {
     margin-top: 15px;
     border-radius: 15px;
-    width: 66%;
+    width: 96%;
     height: 400px;
     padding: 25px;
     font-family: Montserrat;
@@ -80,10 +106,10 @@ a{
     background: url(https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFrZXJ5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
     background-position: center;
     counter-increment: gallery-cell;
-    
+    background-size: cover;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.315);
   }
-  .gallery-cell:nth-child(1){
+  /* .gallery-cell:nth-child(1){
       background: url(https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJha2VyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
   }
   .gallery-cell:nth-child(2){
@@ -92,7 +118,7 @@ a{
   .gallery-cell:nth-child(3){
       background: url(https://c0.wallpaperflare.com/preview/167/509/265/bread-korea-bakery-baguette-bread.jpg);
       background-size: cover;
-  }
+  } */
   .gallery-cell h1{
       padding-top: 155px;
       padding-bottom: 30px;
@@ -123,7 +149,7 @@ a{
      border-bottom: 8px solid  rgb(226, 150, 7);
      
   }
-.cpriscas .description{
+.cpriscas {
     padding-top: 50px;
 }
 .area{
@@ -250,47 +276,114 @@ a{
     
    
     margin-top: 50px;
-    height: 50vh;
+    height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 15px;
     padding-bottom: 15px;
-    background:  rgb(48, 5, 48);
+    background:  rgba(48, 5, 48, 0.178);
     
+}
+.ourService .header{
+    position: sticky;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Montserrat;
+}
+.card1{
+    margin-bottom: 40px;
+    
+}
+.card1, .card2{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .card{
     font-family: Montserrat;
-    width:100%;
+    width:30%;
     position: sticky;
     height: 100%-15px;
-    background: url(https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJha2VyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
-    border-radius: 10px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.315);
+    
+    background: url('https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJha2VyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+   background-position: center;
+   
     margin: 15px;
    
     
 }
-.card .description {
-    font-size: 85%;
-    position: absolute;
-    top: 100%;
-    height: 40%;
-    transform: translateY(-100%);
-    padding: 15px;
-    background-color: rgb(51, 51, 51);
-    color:rgb(197, 129, 4);
-    overflow: hidden;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    transition: .2s;
+.cImage1:nth-child(1){
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU9BB_gQi5RymBn5Rg4myIvBVPkKH0aN70oA&usqp=CAU");
+    background-size: cover;
 }
+.cImage2:nth-child(1){
+    background: url("https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80");
+    background-size: cover;
+    background-position: 0px -70px;
+}
+.cImage2:nth-child(2){
+    background: url("https://images.unsplash.com/photo-1590986201364-ce95ab280ca2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-size: contain;
+}
+.card span{
+    position: absolute;
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .2s;
+    transition-property: background;
+}
+.card span div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+
+}
+.card:hover span{
+    font-size: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.651);
+}
+.card:hover span div{
+    font-size: 20px;
+    background-color: grey;
+}
+.card:hover .header{
+    display: none;
+}
+
+
 .card .header{
-    font-size: 120%;
+    font-size: 100%;
     font-weight: 600;
     letter-spacing: 2px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-40%);
+    top: 100%;
+    transform: translateY(-100%);
     padding: 15px;
+    color: white;
+    width: 100%;
+    background-color: rgba(197, 130, 4, 0.405);
+    text-align: center;
+ 
 }
 .footer{
     position: relative;
@@ -327,126 +420,157 @@ a{
 .overlay{
     display: none;
 }
-@media only screen and (max-width:526px){
 
-    .OtherNavItems{
-        
-        display: none;
-    }
-    .menu{
-        /* background: b; */
-        align-content:flex-end;
-        /* position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%,-70%); */
-    }
-    .menu div{
-        margin-bottom: 5px;
-        width: 30px;
-        height: 3px;
-        border-radius: 15%;
-        background-color: #fff;
-    }
-    .container{
-        flex-direction: column;
-        margin: 0;
-        height: 100vh;
-    }
-    .nHead{
-        position: fixed;
-        top: 0;
-        z-index: 10;
-        width: 100%;
-        /* height: 40000px; */
-        /* background-color: red; */
-        /* width: 100px; */
-        align-items: center;
-        padding: 25px;
-        flex-direction: row;
-        
-        justify-content: space-evenly;
-    }
-    .priscas{
-        padding: 0;
-        width: 9000%;
-    text-align: start;
-    font-size: 30px;
-    }
-    .ourService{
-        flex-direction: column;
-        height: 150vh;
-        align-items: center;
-    }
-    .ourService .card{
-        height: 60%;
-        width: 95%;
-    }
-    .cpriscas .image{
-        min-width: 200px;
-        min-height: 200px;
-        background: url(https://via.placeholder.com/200);
-        margin:0;
-    }
-    .cpriscas{
-        flex-direction: column;
-    }
-    .cpriscas .description{
-        padding: 50px;
-        padding-top: 10px;
-         
-        text-align: center;
-    }
-    .gallery-cell{
-        width: 450px;
-    }
-    .gallery-cell p{
-        position: absolute;
-        top:55%;
-        width: 85%;
-        height: 40%;
-        
-        overflow:hidden;
-    }   
-    .overlay{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-color:  rgb(48, 5, 48);
-        z-index: 998;
-        top:-100vh;
-        left: 50%;
-        transform: translate(-50%,-100vh);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transition: .5s;
-        opacity: 0;
-    }
-    .overlay div{
+.gallaria{
+    background: none;
+    margin-bottom: 30px;
+}
+.galleries{
+    top: 50%;
+  transform: translateY(-50%);
+    border-radius: 0;
+    width:300px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
     
-        
-        width: 100%;
-        
-        padding: 45px 0;
-        text-align: center;
-        align-items: center;
-       justify-content: space-around;
-       transition: .5s;
-        
-    }
-    .overlay div:nth-child(1){
-        margin-top: 50px;
-    }
-    .overlay div:hover{
-        background-color:rgb(15, 1, 15) ;
-    }
-    #bars:checked  ~ .overlay{
-        opacity: 1;
-        transform: translate(-50%,100vh)
-    } 
-    .navItem{
-        z-index: 99999999999;
-    }
+}
+.galleries:nth-child(1){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.19.jpeg");
+    background-position: center;
+    background-size:cover
+    
+}
+.galleries:nth-child(2){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.20.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(3){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.20\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(4){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.21.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(5){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.22.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(6){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.22\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(7){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(8){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(9){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24\ \(2\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(10){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24\ \(3\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(11){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.25.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(12){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.25\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(13){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.25\ \(2\).jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.galleries:nth-child(14){
+    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.26.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.GG{
+    position: sticky;
+    width: 100%;
+    padding: 15px;
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: Montserrat;
+    text-align: center;
+}
+.headDesc{
+    position: sticky;
+    width: 100%;
+   padding-bottom: 10px;
+    font-size: 25px;
+    font-family: Montserrat;
+    text-align: center;
+}
+.moreDesc{
+    padding-top: 15px;
+}
+.GG::after, .headDesc::after, .ourService .header::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    width: 5%;
+    height: 3px;
+    
+    background-color:rgb(226, 150, 7);
+}
+.quote{
+    font-size: 45px;
+    color: rgb(204, 135, 8);
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.reviews{
+    height: auto;
+    width: 100%;
+    background: none;
+    color: black;
+    box-shadow: none;
+    padding: 90px 300px;
+    padding-top: 30px;
+    text-align: center;
+}
+.reviewer{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
 }
