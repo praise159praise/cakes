@@ -32,7 +32,7 @@
         /* height: 40000px; */
         /* background-color: red; */
         /* width: 100px; */
-        align-items: center;
+      
         padding: 10px;
         flex-direction: row;
         
@@ -134,4 +134,8 @@
         padding: 30px 30px;
         text-align: center;
     }
-}
+    .enquiry{
+        
+        
+    }
+    }
