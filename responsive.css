@@ -36,7 +36,7 @@
         padding: 10px;
         flex-direction: row;
         
-        justify-content:space-between;
+        justify-content:space-around;
     }
     .priscas{
         padding: 0;
