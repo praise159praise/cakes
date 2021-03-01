@@ -45,11 +45,12 @@ a{
     left:50%;
     transform: translate(-50%,-50%); */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgb(78, 15, 78);
     color: white;
     font-family: Montserrat;
     padding: 25px;
+    align-items: center;
     justify-content: space-between;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.384);
 }
@@ -60,6 +61,7 @@ a{
     padding-bottom: 15px;
     flex-direction: row;
     margin: auto;
+    z-index: 5;
 }
 .OtherNavItems div{
     position: sticky;
@@ -82,9 +84,16 @@ a{
 }
 .priscas{
     text-align: center;
-    padding-bottom: 45px;
+    
     font-size: 40px;
+    width: 40%;
+    height: 150px;
     color: rgb(226, 150, 7);
+    background: url('./images/priscas.png');
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .OtherNavItems div:hover::after{
     width: 100%;
@@ -153,7 +162,7 @@ a{
     padding-top: 50px;
 }
 .area{
-    z-index: -999;
+    z-index: 0;
 }
 
 .circles{
