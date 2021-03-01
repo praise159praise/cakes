@@ -65,7 +65,7 @@ a{
     position: sticky;
     margin-left: 20px;
     vertical-align: middle;
-    z-index: 999;
+    z-index: 0;
    
 }
 .OtherNavItems div::after{
@@ -410,7 +410,7 @@ a{
     font-size: 20px;
 }
 #bars{
-    z-index: 999;
+    z-index: 0;
     display: none;
     background-color: red;
 }
