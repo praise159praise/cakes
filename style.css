@@ -56,13 +56,16 @@ a{
 }
 
 .OtherNavItems{
-    position: static;
+    position: sticky;
     display: flex;
-    padding-bottom: 15px;
+    padding: 30px;
+    border-radius: 15px;
     flex-direction: row;
     margin: auto;
     margin-bottom: 40px;
     z-index: 5;
+    background-color: rgba(0, 0, 0, 0.596);
+    
 }
 .OtherNavItems div{
     position: sticky;
