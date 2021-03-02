@@ -120,6 +120,7 @@
         opacity: 1;
         transform: translate(-50%,100vh)
     } 
+
     .navItem{
         z-index: 9;
     }

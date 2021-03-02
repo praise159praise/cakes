@@ -44,7 +44,7 @@
                     <li></li>
             </ul>
         </div >
-          <label class="menuBox" for="bars">
+          <label class="menuBox" for="bars" >
             <div class="menu">
               <div></div>
               <div></div>
@@ -53,14 +53,13 @@
           
         </label>
         <input type="checkbox" name="" id="bars">
-        <div class="overlay">
-          <div class="navItem"><a href="./index.html">Home</a></div>
-              <div class="navItem"><a href="#ourservices">Our services</a></div>
-              <div class="navItem"><a href="./booking.html">Booking</a></div>
-              <div class="navItem"><a href="#gallery">Gallery</a></div>
-              <div class="navItem"><a href="#reviews">Reviews</a></div>
-              
-              <div class="navItem"><a href="#aboutus">About us</a></div>
+        <div class="overlay" id="overlay">
+              <div class="navItem" onclick="returnNav()"><a href="./index.html">Home</a></div>
+              <div class="navItem" onclick="returnNav()"><a href="#ourservices">Our Services</a></div>
+              <div class="navItem" onclick="returnNav()"><a href="./booking.html">Booking</a></div>
+              <div class="navItem" onclick="returnNav()"><a href="#gallery">Gallery</a></div>
+              <div class="navItem" onclick="returnNav()"><a href="#reviews">Reviews</a></div>
+              <div class="navItem" onclick="returnNav()"><a href="#aboutus">About</a></div>
               <div class="area" >
                 <ul class="circles">
                         <li></li>
@@ -268,6 +267,7 @@
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+<script src="./script.js"></script>
 
 
 </body>

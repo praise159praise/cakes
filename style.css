@@ -659,6 +659,7 @@ a{
     font-family: Montserrat;
     font-size: 20px;
     color: white;
+    transition: .3s;
 }
 .moreContact i{
     color: white;
