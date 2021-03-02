@@ -120,7 +120,12 @@
         opacity: 1;
         transform: translate(-50%,100vh)
     } 
-
+    .menu{
+        position: relative;
+    }
+    .menu div{
+        transition: .3s;
+    }
     .navItem{
         z-index: 9;
     }
