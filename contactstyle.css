@@ -108,17 +108,12 @@
     transition-property: width;
 }
 .booking i{
-    display: none;
+    display: unset;
     transition: .3s;
+    animation: sway 2s infinite;
     margin-left:10px ;
 }
-.booking:hover i{
-    display: unset;
 
-    /* margin-left: 10px; */
-    animation: sway 2s infinite;
-    transition: .3s;
-}
 @keyframes sway{
     from{
         display: none;
