@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nHead">
+        <div class="priscas">
+            
+        </div>
+        <div class="OtherNavItems">
+          <div><a href="./index.html">Home</a></div>
+          <div><a href="#ourservices">Our services</a></div>
+          <div><a href="./booking.html">Booking</a></div>
+          <div><a href="#gallery">Gallery</a></div>
+          <div><a href="#reviews">Reviews</a></div>
+          <div><a href="./contactUs.html">Contact us</a></div>
+          <div><a href="#aboutus">About us</a></div>
+      </div>
+      <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div >
+      <label class="menuBox"  >
+        <div class="menu" onclick="returnNav()">
+          <div id="bar1"></div>
+          <div id="bar2"></div>
+          <div id="bar3"></div>
+      </div>
+      
+    </label>
+    <input type="checkbox" name="" id="bars">
+    <div class="overlay" id="overlay">
+          <div class="navItem" onclick="returnNav()"><a href="./index.html">Home</a></div>
+          <div class="navItem" onclick="returnNav()"><a href="#ourservices">Our Services</a></div>
+          <div class="navItem" onclick="returnNav()"><a href="./booking.html">Booking</a></div>
+          <div class="navItem" onclick="returnNav()"><a href="#gallery">Gallery</a></div>
+          <div class="navItem" onclick="returnNav()"><a href="#reviews">Reviews</a></div>
+          <div class="navItem" onclick="returnNav()"><a href="#aboutus">Contact us</a></div>
+          <div class="navItem" onclick="returnNav()"><a href="#aboutus">About</a></div>
+          <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div >
+    </div>
+    </nav>
+
+    <div class="headerImage"><div>Contact us</div></div>
+    <div class="container">
+        <div class="leftSide">
+            <div class="header" >Contact us</div>
+            <div class="content">
+                <div style="text-align: center; width: 100%; font-size: 25px;">Priscas Cakes & Kitchen</div>
+                <div>Contact: <span>Priscillia.Y.Asein</span></div>
+                <div>Email: uwaifoaisen@gmail.com</div>
+                <div>Phone: +2348187213779, +2348036150592</div>
+            </div>
+            <div class="booking">Booking<i class="fas fa-arrow-right"></i></div>
+            <div class="foodPic"></div>
+            <div class="cMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8376828855094!2d7.494586850303856!3d8.987079593518285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0d6ff12faaa3%3A0xc0cdc71e32ccd9e5!2sAwesome%20Plaza!5e0!3m2!1sen!2sng!4v1614602008950!5m2!1sen!2sng" style="border:0;" allowfullscreen=""  class="map"></iframe></div>
+        </div>
+        <div class="contactForm">
+            <div class="instagram"><i class="fab fa-instagram"></i><p>PrisCas Cakes & Kitchen</p></div>
+            <div class="facebook"><i class="fab fa-facebook-f"></i><p>PrisCas Cakes & Kitchen</p></div>
+            <div class="gmail"><i class="fas fa-mail-bulk"></i><p>uwaifoaisen@gmail.com</p></div>
+            <form action="" method="post">
+                <input type="text" name="Name" id="" placeholder="Name">
+                <input type="email" name="Email" id="" placeholder="Email">
+                <input type="text" name="Subject" id="" placeholder="Subject">
+                <textarea name="message" id="" placeholder="Message"></textarea>
+                <input type="submit" value="Submit" class="subButton">
+            </form>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p>PrisCas Cakes </p>
+      
+        <div class="social">
+          <a href="https://api.whatsapp.com/send?phone=36203773164"><i class="fab fa-whatsapp"></i></a>
+          <a href="http://"><i class="fab fa-twitter"></i></a>
+          <a href="http://"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

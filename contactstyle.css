@@ -1,0 +1,262 @@
+.container{
+   
+    
+    margin: auto;
+    /* transform: translateX(-50%); */
+    /* border: 4px solid black; */
+    margin-top: 0;
+    margin-bottom: 35px;
+    height: 170vh;
+    width: 90%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.281);
+}
+.headerImage{
+    position: sticky;
+    background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 75px;
+    color: white;
+    
+}
+.headerImage div{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+}
+.headerImage::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.74));
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+}
+.leftSide, .contactForm{
+    height: 100%;
+    width: 100%;
+
+}
+.leftSide{
+    
+    padding: 20px;
+}
+.contactForm{
+    padding: 20px;
+    padding-top: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftSide .header{
+    position: sticky;
+    font-family: Montserrat;
+    color: black;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.leftSide .header::after{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width:15%;
+    height: 5px;
+    background-color:rgb(197, 130, 4);
+    border-radius: 15px;
+   
+}
+.leftSide .content{
+    font-family: Montserrat;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.leftSide .content div{
+    padding: 15px;
+}
+.booking{
+    width:fit-content;
+    
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding:  10px 25px;
+    border-radius: 30px;
+    background-color: rgb(197, 130, 4);
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.384);
+    transition: .3s;
+    transition-property: width;
+}
+.booking i{
+    display: none;
+    transition: .3s;
+    margin-left:10px ;
+}
+.booking:hover i{
+    display: unset;
+
+    /* margin-left: 10px; */
+    animation: sway 2s infinite;
+    transition: .3s;
+}
+@keyframes sway{
+    from{
+        display: none;
+        margin-left: 10;
+    }
+    40%{
+        display: unset;
+        margin-left: 20px; 
+    }
+    to{
+        display: none;
+        margin-left: 10
+    }
+}
+.foodPic{
+    width: 100%;
+    height: 30%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.548); */
+    background:url('https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: 100% 100%;
+}
+
+.cMap{
+    
+    height: 30%;
+}
+.cMap iframe{
+    width: 100%;
+    height: 100%;
+}
+.contactForm div{
+    display: flex;
+    padding:15px;
+    width: 60%;
+    align-items: center;
+
+    margin-bottom: 15px;
+    border-radius: 40px;
+    background-color: rgb(197, 130, 4);
+}
+.contactForm div i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
+}
+.contactForm div p{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    
+}
+.contactForm form{
+    
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.contactForm input, .contactForm textarea{
+   font-family: Montserrat;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 60%;
+    resize: none;
+    height: 60px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 15px;
+}
+.contactForm input::placeholder, .contactForm textarea::placeholder{
+    position: sticky;
+   
+    top: -300000000px;
+}
+.contactForm input::placeholder:focus, .contactForm textarea::placeholder:focus{
+
+}
+.contactForm textarea:focus{
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+.subButton{
+    width:fit-content !important;
+    
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    /* padding:  5px !important; */
+    border-radius: 10px !important;
+    background-color: rgb(197, 130, 4);
+    border: none !important;
+    
+    transition: .3s;
+   
+}
+.subButton:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.384);
+}
+@media only screen and (max-width: 526px){
+    .container{
+        height: 250vh;
+    }
+    .foodPic{
+        height: 30%;
+    }
+    .cMap{
+        height: 45%;
+    }
+    .contactForm div{
+        width: 80%;
+    }
+    .contactForm div p{
+        font-size: 15px;
+    }
+    .contactForm{
+        padding-top:0;
+        justify-content:flex-end;
+        /* height: 50%; */
+    }
+    .contactForm form input, .contactForm form textarea{
+        width: 100%;
+    }
+    .contactForm form{
+        margin: 0;
+        
+    }
+    .leftSide{
+        height: 60%;
+    }
+}

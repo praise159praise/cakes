@@ -74,6 +74,9 @@ a{
     z-index: 0;
    
 }
+.OtherNavItems div:nth-child(1){
+    margin-left: 0;
+}
 .values{
     text-overflow: ellipsis;
 }
