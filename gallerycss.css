@@ -1,0 +1,88 @@
+.containers{
+    width: 100%-80px;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    position: sticky;
+    margin: 80px;
+}
+.flex1, .flex2{
+    width: 100% ;
+    height: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    transition: 3s;
+
+}
+
+.flex1 .cImage1, .flex2 .cImage2{
+    position: sticky;
+    width: 400px;
+    height:100%;
+    background-position: center;
+    transition: 1s;
+    /* background-color: red; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.37);
+    background-size: 100% 100%;
+}
+.header{
+    font-family: Montserrat;
+    font-size: 20px;
+    position: absolute;
+    font-weight: 700;
+    top: 100% ;
+    transform: translateY(-100%);
+    height: 15%;
+    padding: auto;
+    color: white;
+    width: 100%;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    background-color: rgba(197, 130, 4, 0.405);
+    text-align: center;
+}
+
+.cake{
+    background-size: 100% 120%;
+    background-image: url('https://images.unsplash.com/photo-1602351447937-745cb720612f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80');
+}
+.cImage1:nth-child(3){
+    background-size: 100% 120%;
+    background-image: url('https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJha2VyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+.cImage1:hover .header a span{
+    padding: 10px 25px;
+    background: gray;
+    border-radius: 10px;
+}
+.cImage1:hover .header, .cImage2:hover .header{
+    height: 100%;
+    /* animation: up 5s forwards; */
+}
+.cImage1:hover, .cImage2:hover{
+    transition: 14s;
+    background-size: 200% 200%;
+}
+@media only screen and (max-width:526px){
+    .flex1, .flex2{
+        flex-direction: column;
+        align-items: center;
+        height: 150vh;
+        position: unset;
+    }
+    .flex2{
+        height: 110vh;
+    }
+    .containers{
+        height:250vh
+    }
+    .flex1 .cImage1, .flex2 .cImage2{
+        margin-bottom: 65px;
+    }
+}
