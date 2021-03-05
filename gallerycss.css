@@ -56,9 +56,9 @@
     background-size: 100% 120%;
     background-image: url('https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJha2VyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
 }
-.cImage1:hover .header a span{
+.cImage1:hover .header a span, .cImage2:hover .header a span{
     padding: 10px 25px;
-    background: gray;
+    background: none;
     border-radius: 10px;
 }
 .cImage1:hover .header, .cImage2:hover .header{
