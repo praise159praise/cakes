@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <p>Pasteries - Gallery</p>
+  
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+        <div class="column"  >
+          <img src="../images/pasteries/1.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/2.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/3.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/4.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/5.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/6.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/7.jpeg" data-aos="zoom-in-up"data-aos-delay="300">
+        </div>
+        <div class="column">
+          <img src="../images/pasteries/8.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/9.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/4.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/5.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/1.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/2.jpeg" data-aos="zoom-in-up">
+        </div>
+        <div class="column">
+            <img src="../images/pasteries/4.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/5.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/1.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/2.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/8.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/9.jpeg" data-aos="zoom-in-up">
+        </div>
+        <div class="column" >
+             <img src="../images/pasteries/2.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/8.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/4.jpeg" data-aos="zoom-in-up">
+          <img src="../images/pasteries/5.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/8.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/pasteries/9.jpeg" data-aos="zoom-in-up">
+        </div>
+      </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+      <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
+        });
+    </script>
+      
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <p>Food - Gallery</p>
+  
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+        <div class="column"  >
+          <img src="../images/food/1.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/2.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/3.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/4.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/5.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/6.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/7.jpeg" data-aos="zoom-in-up"data-aos-delay="300">
+        </div>
+        <div class="column">
+          <img src="../images/food/8.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/9.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/10.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/11.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/12.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/13.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/27.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+        </div>
+        <div class="column">
+            <img src="../images/food/14.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="../images/food/15.jpeg" data-aos="zoom-in-up">
+            <img src="../images/food/16.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="../images/food/17.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/18.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/19.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/20.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/29.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/30.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+        </div>
+        <div class="column" >
+            <img src="../images/food/21.jpeg" data-aos="zoom-in-up">
+            <img src="../images/food/22.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/23.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/24.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/25.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/26.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/food/28.jpeg" data-aos="zoom-in-up" >
+          <img src="../images/food/31.jpeg" data-aos="zoom-in-up">
+          <img src="../images/food/32.jpeg" data-aos="zoom-in-up" data-aos-delay="300">
+        </div>
+      </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+      <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
+        });
+    </script>
+      
+
+</body>
+</html>
