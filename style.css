@@ -164,7 +164,7 @@ a{
      
      box-shadow: 0 0 30px rgba(128, 128, 128, 0.651);
      border: 8px solid  rgb(78, 15, 78);
-     background: url(https://via.placeholder.com/300);
+     background: url(./aboutImage.jpeg);
      border-bottom: 8px solid  rgb(226, 150, 7);
      
   }
@@ -456,85 +456,85 @@ a{
     
 }
 .galleries:nth-child(1){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.19.jpeg");
+    background: url("./images/cakes/1.jpeg");
     background-position: center;
     background-size:cover
     
 }
 .galleries:nth-child(2){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.20.jpeg");
+    background: url("./images/cakes/2.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(3){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.20\ \(1\).jpeg");
+    background: url("./images/cakes/3.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(4){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.21.jpeg");
+    background: url("./images/cakes/4.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(5){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.22.jpeg");
+    background: url("./images/cakes/5.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(6){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.22\ \(1\).jpeg");
+    background: url("./images/cakes/7.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(7){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24.jpeg");
+    background: url("./images/cakes/7.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(8){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24\ \(1\).jpeg");
+    background: url("./images/cakes/8.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(9){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24\ \(2\).jpeg");
+    background: url("./images/cakes/9.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(10){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.24\ \(3\).jpeg");
+    background: url("./images/cakes/10.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(11){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.25.jpeg");
+    background: url("./images/cakes/11.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(12){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.25\ \(1\).jpeg");
+    background: url("./images/cakes/12.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(13){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.25\ \(2\).jpeg");
+    background: url("./images/cakes/13.jpeg");
     background-position: center;
     background-size: cover;
     
 }
 .galleries:nth-child(14){
-    background: url("./images/WhatsApp\ Image\ 2021-02-28\ at\ 08.55.26.jpeg");
+    background: url("./images/cakes/14.jpeg");
     background-position: center;
     background-size: cover;
     
