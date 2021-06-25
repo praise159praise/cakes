@@ -1,275 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrisCas Cakes</title>
-    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./responsive.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrisCas Cakes</title>
+  <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./responsive.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    
-        <nav class="nHead">
-            <div class="priscas">
-                
-            </div>
-            <div class="OtherNavItems">
-              <div><a href=#>Home</a></div>
-              <div><a href="#ourservices">Our services</a></div>
-              <div><a href="./booking.html">Booking</a></div>
-              <div><a href="gallery.html">Gallery</a></div>
-              <div><a href="#reviews">Reviews</a></div>
-              <div><a href="./contactUs.html">Contact us</a></div>
-              <div><a href="./abtus.html">About us</a></div>
-          </div>
-          <div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-        </div >
-          <label class="menuBox"  >
-            <div class="menu" onclick="returnNav()">
-              <div id="bar1"></div>
-              <div id="bar2"></div>
-              <div id="bar3"></div>
-          </div>
-          
-        </label>
-        <input type="checkbox" name="" id="bars">
-        <div class="overlay" id="overlay">
-              <div class="navItem" onclick="returnNav()"><a href="./index.html">Home</a></div>
-              <div class="navItem" onclick="returnNav()"><a href="#ourservices">Our Services</a></div>
-              <div class="navItem" onclick="returnNav()"><a href="./booking.html">Booking</a></div>
-              <div class="navItem" onclick="returnNav()"><a href="./gallery.html">Gallery</a></div>
-              <div class="navItem" onclick="returnNav()"><a href="#reviews">Reviews</a></div>
-              <div class="navItem" onclick="returnNav()"><a href="./contactUs.html">Contact us</a></div>
-              <div class="navItem" onclick="returnNav()"><a href="./abtus.html">About</a></div>
-              <div class="area" >
-                <ul class="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                </ul>
-            </div >
-        </div>
-          
+
+  <nav class="nHead">
+    <div class="priscas">
+
+    </div>
+    <div class="OtherNavItems">
+      <div><a href=#>Home</a></div>
+      <div><a href="#ourservices">Our services</a></div>
+      <div><a href="./booking.html">Booking</a></div>
+      <div><a href="gallery.html">Gallery</a></div>
+      <div><a href="#reviews">Reviews</a></div>
+      <div><a href="./contactUs.html">Contact us</a></div>
+      <div><a href="./abtus.html">About us</a></div>
+    </div>
+    <!-- <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+      -->
+    <label class="menuBox">
+      <div class="menu" onclick="returnNav()">
+        <div id="bar1"></div>
+        <div id="bar2"></div>
+        <div id="bar3"></div>
+      </div>
+
+    </label>
+   
+    <input type="checkbox" name="" id="bars">
+    <div class="overlay" id="overlay">
+      <div class="navItem" onclick="returnNav()"><a href="./index.html">Home</a></div>
+      <div class="navItem" onclick="returnNav()"><a href="#ourservices">Our Services</a></div>
+      <div class="navItem" onclick="returnNav()"><a href="./booking.html">Booking</a></div>
+      <div class="navItem" onclick="returnNav()"><a href="./gallery.html">Gallery</a></div>
+      <div class="navItem" onclick="returnNav()"><a href="#reviews">Reviews</a></div>
+      <div class="navItem" onclick="returnNav()"><a href="./contactUs.html">Contact us</a></div>
+      <div class="navItem" onclick="returnNav()"><a href="./abtus.html">About</a></div>
       
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
 
-         
 
-        
-            
-            
-        </nav>
-        
-        
-<!-- Flickity HTML init -->
-<div class="gallery js-flickity"
-  data-flickity-options='{ "wrapAround": true,
+
+
+
+
+
+
+  </nav>
+
+
+  <!-- Flickity HTML init -->
+  <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true,
                             "autoPlay":3500}'>
-  <div class="gallery-cell values">
-    <h1>Our Values</h1>
-    <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
-  </div>
-  <div class="gallery-cell values">
-    <h1>Our Values</h1>
-    <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
-  </div>
-  <div class="gallery-cell values">
-    <h1>Our Values</h1>
-    <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
-  </div>
-  <div class="gallery-cell values">
-    <h1>Our Values</h1>
-    <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
-  </div>
-  <div class="gallery-cell values">
-    <h1>Our Values</h1>
-    <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
-  </div>
-  
-</div>
+    <div class="gallery-cell values">
+      <h1>Our Values</h1>
+      <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia
+        voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi
+        sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
+    </div>
+    <div class="gallery-cell values">
+      <h1>Our Values</h1>
+      <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia
+        voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi
+        sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
+    </div>
+    <div class="gallery-cell values">
+      <h1>Our Values</h1>
+      <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia
+        voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi
+        sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
+    </div>
+    <div class="gallery-cell values">
+      <h1>Our Values</h1>
+      <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia
+        voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi
+        sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
+    </div>
+    <div class="gallery-cell values">
+      <h1>Our Values</h1>
+      <p>Offering the best and topnotch catering services for all your events. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Assumenda expedita quo quod laudantium, non tenetur voluptas perferendis facilis officia
+        voluptatibus aut id, pariatur et veritatis! Beatae temporibus deleniti fugit? Perferendis! Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Corporis a cupiditate dicta molestias excepturi harum, magni quasi
+        sapiente possimus adipisci quis, quia praesentium non ad ipsam suscipit reiciendis commodi quam.</p>
+    </div>
 
-<div class="cpriscas" id="aboutus">
+  </div>
+
+  <div class="cpriscas" id="aboutus">
     <div class="image"></div>
-    <div class="description"><div class="headDesc">About Us</div><div class="moreDesc">Baker, chef; artist, teacher. Priscilla Asein, founder of Prisca’s Cakes & Kitchen, is a renowned expert in providing catering services with a sense of timeliness, order and satisfaction. Over 24 years, she has educated herself on quality cooking, excellent cake design and top-notch event catering. Through the Prisca’s academy, she wishes to pass on these skills to home and professional cooks.</div></div>
-</div>
-
-<div class="ourService" id="ourservices">
-  <div class="header">Our Services</div>
-  <div class="card1">
-    <div class="eventC card cImage1">
-      <span><div><a href="./booking.html">Book a reservation..</a></div></span>
-      <div class="header">
-        Event Catering
-      </div>
-      
-    </div>
-    <div class="cakesP card cImage1">
-      <span><div><a href="./booking.html">Book a reservation..</a></div></span>
-      <div class="header">
-        Cakes and Pasteries 
-      </div>
-      
+    <div class="description">
+      <div class="headDesc">About Us</div>
+      <div class="moreDesc">Baker, chef; artist, teacher. Priscilla Asein, founder of Prisca’s Cakes & Kitchen, is a
+        renowned expert in providing catering services with a sense of timeliness, order and satisfaction. Over 24
+        years, she has educated herself on quality cooking, excellent cake design and top-notch event catering. Through
+        the Prisca’s academy, she wishes to pass on these skills to home and professional cooks.</div>
     </div>
   </div>
-  <div class="card2">
-    <div class="trainingP card cImage2">
-      <span><div><a href="./booking.html">Book a reservation..</a></div></span>
-      <div class="header">
-        Training Program
+
+  <div class="ourService" id="ourservices">
+    <div class="header">Our Services</div>
+    <div class="card1">
+      <div class="eventC card cImage1">
+        <span>
+          <div><a href="./booking.html">Book a reservation..</a></div>
+        </span>
+        <div class="header">
+          Event Catering
+        </div>
+
       </div>
-      
+      <div class="cakesP card cImage1">
+        <span>
+          <div><a href="./booking.html">Book a reservation..</a></div>
+        </span>
+        <div class="header">
+          Cakes and Pasteries
+        </div>
+
+      </div>
     </div>
-    
+    <div class="card2">
+      <div class="trainingP card cImage2">
+        <span>
+          <div><a href="./booking.html">Book a reservation..</a></div>
+        </span>
+        <div class="header">
+          Training Program
+        </div>
+
+      </div>
+
       <div class="rentalS card cImage2">
-        <span><div><a href="./booking.html">Book a reservation..</a></div></span>
+        <span>
+          <div><a href="./booking.html">Book a reservation..</a></div>
+        </span>
         <div class="header">
           Rental Services
         </div>
-        
+
       </div>
+    </div>
+
   </div>
- 
-</div>
-<div class="GG" id="gallery">Gallery</div>
-<div class="gallery js-flickity gallaria mforward"
-  data-flickity-options='{ "wrapAround": true,
+  <div class="GG" id="gallery">Gallery</div>
+  <div class="gallery js-flickity gallaria mforward" data-flickity-options='{ "wrapAround": true,
                             "autoPlay":2000,
                             "prevNextButtons": false,
                             "freeScroll": true,
                             "fullscreen": true,
                             "pageDots": false}'>
-  <div class="gallery-cell galleries">
-      
-  </div>
-  <div class="gallery-cell galleries">
-   
-  </div>
-  <div class="gallery-cell galleries">
-   
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
+    <div class="gallery-cell galleries">
 
-  <div class="gallery-cell galleries">
-    
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+    <div class="gallery-cell galleries">
+
+    </div>
+
   </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  <div class="gallery-cell galleries">
-    
-  </div>
-  
-</div>
-<i class="fas fa-quote-left quote" ></i>
-<div class="gallery js-flickity gallaria"
-  data-flickity-options='{ "wrapAround": true,
+  <i class="fas fa-quote-left quote"></i>
+  <div class="gallery js-flickity gallaria" data-flickity-options='{ "wrapAround": true,
                             "autoPlay":7500,
                             "prevNextButtons": false,
                             
                             
-                            "pageDots": false}'
-                            id="reviews">
-                            
-  <div class="gallery-cell reviews">
-    
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio deleniti dolorum, aperiam libero fuga velit! Asperiores dignissimos quia assumenda id praesentium magni accusamus similique, pariatur vitae numquam esse nesciunt?
-      <div class="reviewer">John Doe</div>
-    </div>
-  <div class="gallery-cell reviews">
-    
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eos. Tenetur impedit, necessitatibus natus deleniti vitae vero quo accusamus harum ipsa atque accusantium aut in similique nemo alias dolorum odit.
-      <div class="reviewer">John Doe</div>
-    </div>
-  <div class="gallery-cell reviews">
-    
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque atque eius inventore unde dolore neque. Nisi corporis deleniti corrupti esse nulla in, porro perferendis soluta assumenda, quis accusantium aperiam laudantium!
-      <div class="reviewer">John Doe</div>
-    </div>
-  <div class="gallery-cell reviews">
-    
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, soluta vero! Quibusdam quod deserunt reiciendis eligendi animi maxime dolorum cupiditate consequatur distinctio ullam architecto, earum corrupti eveniet impedit quam asperiores.
-      <div class="reviewer">John Doe</div>
-    </div>
-  <div class="gallery-cell reviews">
-    
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda dolor repudiandae ad eligendi modi amet provident, soluta distinctio obcaecati veniam qui dolorem sunt quo, iste harum illum molestias, animi fuga.
-      <div class="reviewer">John Doe</div>
-    </div>
-  
-</div>
+                            "pageDots": false}' id="reviews">
 
-<div class="enquiry">
-  <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3940.8346532797245!2d7.4966865!3d8.9873581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0db5b18d33e7%3A0x5e2fe8da0662a4d4!2sPrisca&#39;s%20Cakes%20%26%20Kitchen!5e0!3m2!1sen!2sng!4v1619513656128!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe></div>
-  <div class="moreContact">
-    <header>For More Enquiry</header>
-    <div class="phone"><i class="fas fa-phone"></i><p>09000000000</p></div>
-    <div class="facebook"><i class="fab fa-facebook-f"></i><p>PrisCas</p></div>
-    <div class="instagram"><i class="fab fa-instagram"></i><p>PrisCas</p></div>
+    <div class="gallery-cell reviews">
+
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio deleniti dolorum, aperiam libero fuga
+      velit! Asperiores dignissimos quia assumenda id praesentium magni accusamus similique, pariatur vitae numquam esse
+      nesciunt?
+      <div class="reviewer">John Doe</div>
+    </div>
+    <div class="gallery-cell reviews">
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eos. Tenetur impedit, necessitatibus natus deleniti
+      vitae vero quo accusamus harum ipsa atque accusantium aut in similique nemo alias dolorum odit.
+      <div class="reviewer">John Doe</div>
+    </div>
+    <div class="gallery-cell reviews">
+
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque atque eius inventore unde dolore neque. Nisi
+      corporis deleniti corrupti esse nulla in, porro perferendis soluta assumenda, quis accusantium aperiam laudantium!
+      <div class="reviewer">John Doe</div>
+    </div>
+    <div class="gallery-cell reviews">
+
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, soluta vero! Quibusdam quod deserunt reiciendis
+      eligendi animi maxime dolorum cupiditate consequatur distinctio ullam architecto, earum corrupti eveniet impedit
+      quam asperiores.
+      <div class="reviewer">John Doe</div>
+    </div>
+    <div class="gallery-cell reviews">
+
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda dolor repudiandae ad eligendi modi amet
+      provident, soluta distinctio obcaecati veniam qui dolorem sunt quo, iste harum illum molestias, animi fuga.
+      <div class="reviewer">John Doe</div>
+    </div>
+
   </div>
-</div>
-<div class="footer">
-  <p>PrisCas Cakes </p>
 
-  <div class="social">
-    <a href="https://api.whatsapp.com/send?phone=36203773164"><i class="fab fa-whatsapp"></i></a>
-    <a href="http://"><i class="fab fa-twitter"></i></a>
-    <a href="http://"><i class="fab fa-instagram"></i></a>
+  <div class="enquiry">
+    <div><iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3940.8346532797245!2d7.4966865!3d8.9873581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0db5b18d33e7%3A0x5e2fe8da0662a4d4!2sPrisca&#39;s%20Cakes%20%26%20Kitchen!5e0!3m2!1sen!2sng!4v1619513656128!5m2!1sen!2sng"
+        style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe></div>
+    <div class="moreContact">
+      <header>For More Enquiry</header>
+      <a href="tel:+2348036150592">
+        <div class="phone"><i class="fas fa-phone"></i>
+          <p>+2348036150592</p>
+        </div>
+      </a>
+
+      <a href="https://m.facebook.com/ogeneme/">
+        <div class="facebook"><i class="fab fa-facebook-f"></i>
+          <p>PrisCas</p>
+        </div>
+      </a>
+      <a href="https://instagram.com/priscas_cakes_and_kitchen?igshid=1u466b6p6fwn0">
+        <div class="instagram"><i class="fab fa-instagram"></i>
+          <p>PrisCas</p>
+        </div>
+      </a>
+
+    </div>
   </div>
-</div>
+  <div class="footer">
+    <p>PrisCas Cakes </p>
+    <p>&#169; 2021</p>
+    <div class="social">
+      <a href="https://api.whatsapp.com/send?phone=2348036150592"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/priscas_cakes_and_kitchen?igshid=1u466b6p6fwn0"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
 
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
-<script src="./script.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+  <script src="./script.js"></script>
 
 
 </body>
+
 </html>

@@ -4,6 +4,9 @@
         
         display: none;
     }
+    .menuBox{
+     display: unset;
+    }
     .menu{
         /* background: b; */
         align-content:flex-end;

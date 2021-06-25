@@ -40,7 +40,8 @@ a{
 }
 .nHead{
     background-color: green;
-    position: relative;
+    position: sticky;
+    top: 0;
     /* top:50%;
     left:50%;
     transform: translate(-50%,-50%); */
@@ -49,30 +50,34 @@ a{
     background-color: rgb(78, 15, 78);
     color: white;
     font-family: Montserrat;
-    padding: 15px;
+    /* padding: 15px; */
+    z-index: 10000;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.384);
 }
 
 .OtherNavItems{
-    position: sticky;
+    position: relative;
     display: flex;
     padding: 30px;
     border-radius: 15px;
     flex-direction: row;
-    margin: auto;
-    margin-bottom: 40px;
+    
+    /* margin-bottom: 40px; */
     z-index: 5;
-    background-color: rgba(0, 0, 0, 0.596);
+    /* background-color: rgba(0, 0, 0, 0.596); */
     
 }
 .OtherNavItems div{
     position: sticky;
-    margin-left: 20px;
+    margin-right: 40px;
     vertical-align: middle;
     z-index: 0;
    
+}
+.area{
+    position: absolute;
 }
 .OtherNavItems div:nth-child(1){
     margin-left: 0;
@@ -96,12 +101,12 @@ a{
     text-align: center;
     
     font-size: 40px;
-    width: 40%;
-    height: 150px;
+    width: 20%;
+    height: 100px;
     color: rgb(226, 150, 7);
     background: url('./images/priscas.png');
     
-    background-size: 100% 100%;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -435,6 +440,7 @@ a{
     background-color: red;
 }
 .menuBox{
+    display: none;
     z-index: 999;
 }
 .overlay{
@@ -644,8 +650,12 @@ a{
     background: rgba(0, 0, 0, 0.466);
     
 }
-.moreContact div{
+.moreContact a{
+    display: block;
+}
+.moreContact> a {
     /* position: absolute; */
+    
     height: 50%;
     width: 100%;
     background-color: rgba(197, 130, 4, 0.761);
@@ -655,7 +665,12 @@ a{
     justify-content: center;
     transition: .5s;
 }
-.moreContact div:nth-child(4){
+.moreContact div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moreContact a:nth-child(4){
     margin: 0;
 }
 .moreContact p{
@@ -669,7 +684,7 @@ a{
     margin-right: 15px;
     transition: .2s;
 }
-.moreContact div:hover{
+.moreContact a:hover{
    
 
  
@@ -677,7 +692,7 @@ a{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
   
 }
-.moreContact div:hover i{
+.moreContact a:hover i{
     width: 40px;
     height: 40px;
     line-height: 40px;
