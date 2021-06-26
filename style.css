@@ -470,7 +470,7 @@ a{
     
 }
 .galleries:nth-child(2){
-    background: url("./images/cakes/2.jpeg");
+    background: url("./images/trining/5.jpg");
     background-position: center;
     background-size: cover;
     
@@ -482,7 +482,7 @@ a{
     
 }
 .galleries:nth-child(4){
-    background: url("./images/cakes/4.jpeg");
+    background: url("./images/trining/12.jpg");
     background-position: center;
     background-size: cover;
     
@@ -494,7 +494,7 @@ a{
     
 }
 .galleries:nth-child(6){
-    background: url("./images/cakes/7.jpeg");
+    background: url("./images/trining/7.jpg");
     background-position: center;
     background-size: cover;
     

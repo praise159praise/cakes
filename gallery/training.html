@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <p>Training - Gallery</p>
+  
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+        <div class="column"  >
+          <img src="../images/trining/1.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/2.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/3.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/4.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/5.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/6.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/7.jpg" data-aos="zoom-in-up"data-aos-delay="300">
+        </div>
+        <div class="column">
+          <img src="../images/trining/8.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/9.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/10.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/11.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/12.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/1.jpg" data-aos="zoom-in-up">
+        </div>
+        <div class="column">
+            <img src="../images/trining/2.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/5.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/6.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/2.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/8.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/9.jpg" data-aos="zoom-in-up">
+        </div>
+        <div class="column" >
+             <img src="../images/trining/12.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/10.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/4.jpg" data-aos="zoom-in-up">
+          <img src="../images/trining/5.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/2.jpg" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="../images/trining/3.jpg" data-aos="zoom-in-up">
+        </div>
+      </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+      <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        $('.hero__scroll').on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: $(window).height()
+            }, 1200);
+        });
+    </script>
+      
+
+</body>
+</html>
