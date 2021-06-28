@@ -98,12 +98,16 @@ a{
     background-color: rgb(197, 129, 4);
     transition: .5s;
 }
+.image{
+    width: 200px;
+    height: 100px;
+}
 .priscas{
     text-align: center;
     
     font-size: 40px;
-    width: 20%;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     color: rgb(226, 150, 7);
     background: url('./images/priscas.png');
     
@@ -421,7 +425,7 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    top:100%;
+    bottom: 0;
     
 }
 .social{
