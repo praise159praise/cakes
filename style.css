@@ -138,6 +138,7 @@ a{
     background-size: cover;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.315);
   }
+ 
   .values:nth-child(1){
     background: url(./images/trining/9.jpg);
     background-size: cover;
@@ -156,13 +157,13 @@ a{
 
   }
   .values:nth-child(4){
-    background: url(./images/food/4.jpeg);
+    background: url(https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
     background-size: cover;
     background-position: center;
 
 }
 .values:nth-child(5){
-    background: url(./images/pasteries/12.jpg);
+    background: url(https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1580&q=80);
     background-size: cover;
     background-position: center;
 
