@@ -84,6 +84,9 @@ a{
 }
 .values{
     text-overflow: ellipsis;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
 }
 .OtherNavItems div::after{
     content: '';
@@ -181,6 +184,8 @@ height: 100%;
 }
   .gallery-cell h1{
      font-size:45px;
+      position:relative;
+      z-index:5;
   }
   .cpriscas{
       position: relative;
