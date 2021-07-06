@@ -228,33 +228,28 @@
 }
 @media only screen and (max-width: 526px){
     .container{
-        height: 250vh;
-    }
-    .foodPic{
-        height: 30%;
-    }
-    .cMap{
-        height: 45%;
-    }
-    .contactForm div{
-        width: 80%;
-    }
-    .contactForm div p{
-        font-size: 15px;
-    }
-    .contactForm{
-        padding-top:0;
-        justify-content:flex-end;
-        /* height: 50%; */
-    }
-    .contactForm form input, .contactForm form textarea{
-        width: 100%;
-    }
-    .contactForm form{
-        margin: 0;
-        
-    }
-    .leftSide{
-        height: 60%;
-    }
-}
+         height: auto;
+     }
+     .contactForm{
+         padding-top:30px;
+     }
+     
+     .foodPic{
+         height: 200px;
+         
+     }
+     .cMap{
+         height: 250px;
+     }
+     .contactForm a div{
+         width: 100%;
+     }
+     .contactForm form input, .contactForm form textarea{
+         width: 100%;
+     }
+     .contactForm form{
+         margin: 0;
+         
+     }
+     
+ }
