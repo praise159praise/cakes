@@ -464,11 +464,11 @@ height: 100%;
     bottom: 0;
     
 }
-.social{
+.socials{
     font-size: 20px;
     
 }
-.social a{
+.socials a{
     margin: 20px;
 }
 
@@ -744,4 +744,90 @@ height: 100%;
     text-align: center;
     align-self: center;
     
+}
+.teams{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teams >div{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin:30px 25px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.432);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.teams >div:nth-child(1){
+    background-image: url(https://images.unsplash.com/photo-1484517186945-df8151a1a871?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams> div:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1601289149034-2daad70d0076?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams >div:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1533469513-03bfed91f496?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams >div:nth-child(4){
+    background-image: url(https://images.unsplash.com/photo-1516195851888-6f1a981a862e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams> div:nth-child(5){
+    background-image: url(https://images.unsplash.com/photo-1530785896884-7929f3dd1954?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams> div:nth-child(6){
+    background-image: url(https://images.unsplash.com/photo-1572631382901-cf1a0a6087cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams >div:nth-child(7){
+    background-image: url(https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.teams> div >span{
+    height: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    font-size: unset;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    font-family: Montserrat;
+    color: white;
+    
+    transition: .3s;
+}
+.teams div:hover span{
+
+    height: 40px;
+    font-size: 20px;
+    
+}
+.social{
+    opacity: 0;
+    width: 0;
+   
+    overflow: hidden;
+   margin-left: 10px;
+    transition: .3s opacity 0s;
+}
+.teams .social >a{
+    margin: 5px;
+ 
+}
+.teams div:hover .social{
+    width: 80px;
+    opacity: 1;
 }
